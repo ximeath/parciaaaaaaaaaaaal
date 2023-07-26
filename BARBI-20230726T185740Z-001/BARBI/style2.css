@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    }
+
+    #body{
+        background-color: rgb(212, 160, 212);
+        text-align: center;
+        }
+        
+    
+    header{
+        width: 50vw;
+        height: 80vh;
+        background-image: url('../BARBI/img/squat.jpg'); 
+        background-repeat : no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-size: 50px;
+        margin-left: 400px;
+      text-align: center;
+    }
+    .principal{
+        text-align: justify;
+        margin: 20px;
+    }
+    
+    .principal p{
+        margin: 20px;
+    }
+    
+    .principal article{
+        border: 2px dotted;
+        margin: 10px 50px;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .principal h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .container-gal{
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    div.Galeria{
+        margin: 10px;
+        box-shadow: 2px 4px 8px  rgb(181, 82, 219);
+        width: 300px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .Galeria img{
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
+    
+    footer{
+        background-color: rgb(52, 115, 170);
+        color: black;
+        height: 50px;
+        text-align: center;
+        padding: 20px;
+        font-size: 22px;
+    }
+    
+    @media only screen and (max-width: 576px){
+        .principal{
+    
+        }
+    }
+    @media only screen and (min-width: 576px){
+    
+    }
+
+    
+
+#titulo{
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+div img{
+    margin: 10px;
+    width: 400px;
+    height: 450px;
+}
+
+.button{
+    margin-left: 400px;
+}
